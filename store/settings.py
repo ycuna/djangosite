@@ -28,7 +28,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False').lower()  == 'True'
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(' ')
+=======
+ALLOWED_HOSTS = ['djangosite-zfvt.onrender.com']
+>>>>>>> f82eca91d07d3998c4426554024290365d23e2a8
 
 
 # Application definition
